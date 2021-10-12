@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Peliculas</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <section>
+        <h1>AGREGAR PELICULAS</h1>
+        <form onsubmit={myForm(event)}>
+            <ul>
+                <li><input id="Nombre" type="text" placeholder="Escribe el nombre de la Pelicula"></input></li>
+                <li><input type="number" id="año" placeholder="Año"></li>
+                <li><button type="submit" id="boton" value="Enviar">Enviar</button></li>
+            </ul>
+
+        </form>
+        <div id="formValues"></div>
+    </section>
+    <script src="/index.js"></script>
+</body>
+</html>
